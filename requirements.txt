@@ -1,4 +1,1 @@
-smtplib==22.1.2
-datetime
-random
-pandas
+
