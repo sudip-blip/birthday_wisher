@@ -10,7 +10,7 @@ today = datetime.now()
 month = today.month
 day = today.day
 today_tuple=(month,day)
-time=today.time().hour
+# time=today.time().hour
 
 file = pd.read_csv("birthdays.csv")
 file_dict = {(row["month"], row["day"]): row for (index, row) in file.iterrows()}
