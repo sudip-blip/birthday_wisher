@@ -23,10 +23,10 @@ if today_tuple  in file_dict:
 
 
             with smtplib.SMTP("smtp.gmail.com", 587) as connection:
-            connection.starttls()
-            connection.login(my_email, password)
-            connection.sendmail(
-                from_addr=my_email,
-                to_addrs=birth_day_person["email"],
-                msg=f"Subject:Happy Birthday\n\n{message}".encode("utf-8"),
-            )
+                connection.starttls()
+                connection.login(my_email, password)
+                connection.sendmail(
+                    from_addr=my_email,
+                    to_addrs=birth_day_person["email"],
+                    msg=f"Subject:Happy Birthday\n\n{message}".encode("utf-8"),
+                )
