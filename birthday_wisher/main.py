@@ -2,7 +2,6 @@ import smtplib
 from datetime import datetime
 import random
 import pandas as pd
-
 my_email = "sudip000kc@gmail.com"
 password = "ebzjiubtqhhhcvdw"
 
