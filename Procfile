@@ -1,1 +1,1 @@
-worker: /birthday_wisher/main.py
+worker: birthday_wisher/main.py
