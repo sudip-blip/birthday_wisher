@@ -2,9 +2,10 @@ import smtplib
 from datetime import datetime
 import random
 import pandas as pd
+from decouple import config 
 
-my_email = "sudip000kc@gmail.com"
-password = "ebzjiubtqhhhcvdw"
+my_email = config("my_email")
+password = config("password")
 
 today = datetime.now()
 month = today.month
